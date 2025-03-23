@@ -1,6 +1,6 @@
 // useChat.ts
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { Conversation, Message } from './../Types/index';
 import { sendMessageToServer } from './../Services/api';
 
